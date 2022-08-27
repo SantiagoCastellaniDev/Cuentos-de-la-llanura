@@ -1,4 +1,13 @@
 
-nav,footer {
+nav {
     background:rgb(248, 248, 196);
+    padding:20px;
+}
+
+ul li {
+    margin-right:10px;
+}
+
+ul li a:hover {
+    color: black;
 }

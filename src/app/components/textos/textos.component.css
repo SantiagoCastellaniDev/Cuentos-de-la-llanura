@@ -18,9 +18,8 @@ section {
 .presentacion {    
     text-align: center;
     justify-content: center;
-    padding:25px;
+    padding:0 auto;
     margin:0 auto;
-    overflow-y: scroll;
 } 
 .banner h2 {
     font-family: 'Qwitcher Grypen', cursive;
@@ -45,35 +44,35 @@ section {
     padding:0 auto;
     text-align: center;
 }
+.caja ul {
+    margin:0 auto;
+    padding:0 0 0 0;
+}
 
-.caja a {    
+.caja ul li {
+    list-style: none;
+    margin:10px;
+}
+
+.caja ul li a {    
     color:white;
     font-size: 1rem;
     text-decoration: none;
-    margin:20px;
-    padding: 5px;
 }
 
-.caja a:hover {
+.caja ul li a:hover {
     color:yellow;
 }
 
 .line {
     display:inline;
 }
-/*
-@media only screen and (max-width: 680px) {
-    header h1 {
-        font-size:5.5rem;
-    }    
-    header h2 {
-        font-size:5rem;
-    }    
-    header h2 {
-        font-size:3rem;
-    }    
+
+@media only screen and (max-width: 410px) {
+    .banner h2 {font-size:5rem}
 }
   
+/*
 @media only screen and (max-width: 530px) {
     header h1 {
         font-size:4.5rem;
