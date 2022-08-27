@@ -1,0 +1,42 @@
+
+.cuento {
+    background:black;
+    padding:4% 10%;
+    text-align: center;
+}
+
+
+.titulo h3 {
+    color: rgb(209, 149, 37);
+    font-size:4rem;
+    font-family: 'Qwitcher Grypen', cursive;
+    margin:0 auto;   
+}
+.texto {
+    background:rgb(231, 241, 141);
+    border-radius: 20px;
+    width:max-content;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding:50px 30px 10px 30px;
+    width:50%;
+}
+/*
+.texto p {
+    font-size: 1.2rem;
+    margin: 75px;
+    padding-top:40px;
+    padding-bottom: 20px;
+}
+.pagina {
+ top:25px;
+}
+*/
+
+@media only screen and (max-width: 950px) {
+  .texto {width:75%}
+}
+@media only screen and (max-width: 600px) {
+  .texto {width:100%}
+}

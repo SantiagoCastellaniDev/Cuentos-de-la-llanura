@@ -1,0 +1,100 @@
+section {
+    margin:0 auto;
+    padding:0 auto;
+}
+/* Banner y titulo*/
+.banner {
+    width: 100%;
+    height:100vh;
+    background:url(../../../assets/img/coladezorro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;/*
+    align-items: center;*/
+    display: flex;
+    text-align: center
+}
+
+.presentacion {    
+    text-align: center;
+    justify-content: center;
+    padding:25px;
+    margin:0 auto;
+    overflow-y: scroll;
+} 
+.banner h2 {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size:7rem;
+    color:rgb(63, 9, 9);
+    margin:0 auto;
+    padding-top:50px;
+}
+
+/* cajas de cuentos */
+
+.caja {
+     text-align: center;
+     background:black;
+     margin:75px;
+     border-radius: 15px;
+     border:1px solid yellow;
+     padding:25px;
+}
+
+#tarjeta {
+    padding:0 auto;
+    text-align: center;
+}
+
+.caja a {    
+    color:white;
+    font-size: 1rem;
+    text-decoration: none;
+    margin:20px;
+    padding: 5px;
+}
+
+.caja a:hover {
+    color:yellow;
+}
+
+.line {
+    display:inline;
+}
+/*
+@media only screen and (max-width: 680px) {
+    header h1 {
+        font-size:5.5rem;
+    }    
+    header h2 {
+        font-size:5rem;
+    }    
+    header h2 {
+        font-size:3rem;
+    }    
+}
+  
+@media only screen and (max-width: 530px) {
+    header h1 {
+        font-size:4.5rem;
+    }    
+    header h2 {
+        font-size:5rem;
+    }    
+    header h2 {
+        font-size:2.5rem;
+    }    
+}
+  
+@media only screen and (max-width: 400px) {
+    header h1 {
+        font-size:4rem;
+    }    
+    header h2 {
+        font-size:4rem;
+    }    
+    header h2 {
+        font-size:2rem;
+    }    
+}
+*/
