@@ -12,6 +12,10 @@ import { PageComponent } from './pages/page/page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TextosComponent } from './components/textos/textos.component';
 import { CuentosDropdownComponent } from './components/cuentos-dropdown/cuentos-dropdown.component';
+import { Cuento1Component } from './cuentos/cuento1/cuento1.component';
+import { Cuento2Component } from './cuentos/cuento2/cuento2.component';
+import { Cuento3Component } from './cuentos/cuento3/cuento3.component';
+import { Cuento4Component } from './cuentos/cuento4/cuento4.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { CuentosDropdownComponent } from './components/cuentos-dropdown/cuentos-
     BiografiaComponent,
     PageComponent,
     TextosComponent,
-    CuentosDropdownComponent
+    CuentosDropdownComponent,
+    Cuento1Component,
+    Cuento2Component,
+    Cuento3Component,
+    Cuento4Component
   ],
   imports: [
     BrowserModule,

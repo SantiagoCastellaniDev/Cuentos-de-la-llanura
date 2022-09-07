@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+.titulos {
+    text-align: center;
+    margin-top:45px;
+    margin-bottom: 45px;
+} 
+
+.texto {
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+.comentario {
+    margin-bottom:30px;
+}
+
+.cuento {
+    margin:15px 60px 0 60px;
+    padding: 25px;
+    background:white;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .cuento {
+        margin:10px 30px 0 30px;
+        padding: 10px;
+        background:white;
+    }
+    p {margin-left:0};
+    .pagina {
+        padding:0px 0px 0px 0px;
+    }
+    .texto {
+        margin:0;
+    }
+
+}
