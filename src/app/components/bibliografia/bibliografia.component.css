@@ -22,6 +22,7 @@ section {
 .libro-img {
     max-height: 40vh;
     border:2px solid black;
+    max-width: 40vw;
 }
 .libro {
     margin:0 auto;
@@ -40,4 +41,16 @@ section {
 }
 .libro p {
     margin:10px 100px;
+}
+
+
+@media only screen and (max-width: 460px) {
+    .banner h2 {        
+        font-size:4rem;
+    }
+    #bibliografia {
+        margin:51px 15px 0 15px;
+        padding: 5px;
+    }
+
 }
