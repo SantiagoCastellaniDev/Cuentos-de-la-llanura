@@ -1,0 +1,43 @@
+section {
+    margin:0 auto;
+    padding:0 auto;
+    text-align: center;
+}
+/* Banner y titulo*/
+
+.presentacion {    
+    text-align: center;
+    justify-content: center;
+    padding:0 auto;
+    margin:0 auto;
+} 
+.banner h2 {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size:5rem;
+    color:rgb(63, 9, 9);
+    margin:0 auto;
+    padding-top:5px;
+}
+
+.libro-img {
+    max-height: 40vh;
+    border:2px solid black;
+}
+.libro {
+    margin:0 auto;
+}
+
+#bibliografia {
+    margin:15px 60px 0 60px;
+    padding: 25px;
+    background:rgb(243, 255, 175);
+}
+
+.libro h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top:10px;
+}
+.libro p {
+    margin:10px 100px;
+}
