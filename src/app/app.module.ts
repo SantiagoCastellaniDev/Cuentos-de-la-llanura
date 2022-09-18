@@ -23,6 +23,7 @@ import { Cuento8Component } from './cuentos/cuento8/cuento8.component';
 import { Cuento9Component } from './cuentos/cuento9/cuento9.component';
 import { Cuento10Component } from './cuentos/cuento10/cuento10.component';
 import { BibliografiaComponent } from './components/bibliografia/bibliografia.component';
+import { NarracionesComponent } from './components/narraciones/narraciones.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { BibliografiaComponent } from './components/bibliografia/bibliografia.co
     Cuento8Component,
     Cuento9Component,
     Cuento10Component,
-    BibliografiaComponent
+    BibliografiaComponent,
+    NarracionesComponent
   ],
   imports: [
     BrowserModule,

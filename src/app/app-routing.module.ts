@@ -5,6 +5,7 @@ import { BibliografiaComponent } from './components/bibliografia/bibliografia.co
 import { BiografiaComponent } from './components/biografia/biografia.component';/*
 import { CuentoComponent } from './components/cuento/cuento.component';*/
 import { HomeComponent } from './components/home/home.component';
+import { NarracionesComponent } from './components/narraciones/narraciones.component';
 import { TextosComponent } from './components/textos/textos.component';
 import { Cuento1Component } from './cuentos/cuento1/cuento1.component';
 import { Cuento10Component } from './cuentos/cuento10/cuento10.component';
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'biografia', component: BiografiaComponent },
   { path: 'bibliografia', component: BibliografiaComponent },
+  { path: 'narraciones', component: NarracionesComponent},
   { path: 'textos', component: TextosComponent },
   { path: 'cuento1', component: Cuento1Component },
   { path: 'cuento2', component: Cuento2Component },
