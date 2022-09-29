@@ -29,7 +29,7 @@ section {
 }
 
 #bibliografia {
-    margin:15px 60px 0 60px;
+    margin:70px 0 0 0;
     padding: 25px;
     background:rgb(243, 255, 175);
 }
@@ -48,8 +48,7 @@ section {
     .banner h2 {        
         font-size:4rem;
     }
-    #bibliografia {
-        margin:51px 15px 0 15px;
+    #bibliografia {        
         padding: 5px;
     }
 

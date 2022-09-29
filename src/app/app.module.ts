@@ -8,7 +8,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { CuentoComponent } from './components/cuento/cuento.component';
 import { BiografiaComponent } from './components/biografia/biografia.component';
-import { PageComponent } from './pages/page/page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TextosComponent } from './components/textos/textos.component';
 import { CuentosDropdownComponent } from './components/cuentos-dropdown/cuentos-dropdown.component';
@@ -24,6 +23,9 @@ import { Cuento9Component } from './cuentos/cuento9/cuento9.component';
 import { Cuento10Component } from './cuentos/cuento10/cuento10.component';
 import { BibliografiaComponent } from './components/bibliografia/bibliografia.component';
 import { NarracionesComponent } from './components/narraciones/narraciones.component';
+import { NarracionPageComponent } from './pages/narracion-page/narracion-page.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { CuentosPageComponent } from './pages/cuentos-page/cuentos-page.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,6 @@ import { NarracionesComponent } from './components/narraciones/narraciones.compo
     HomeComponent,
     CuentoComponent,
     BiografiaComponent,
-    PageComponent,
     TextosComponent,
     CuentosDropdownComponent,
     Cuento1Component,
@@ -47,7 +48,10 @@ import { NarracionesComponent } from './components/narraciones/narraciones.compo
     Cuento9Component,
     Cuento10Component,
     BibliografiaComponent,
-    NarracionesComponent
+    NarracionesComponent,
+    NarracionPageComponent,
+    HomePageComponent,
+    CuentosPageComponent
   ],
   imports: [
     BrowserModule,

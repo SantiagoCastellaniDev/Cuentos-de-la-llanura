@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" routerLink="/home">Cuentos de la llanura</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,17 +10,13 @@
             <a class="nav-link" routerLink="/home" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/biografia" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Biografía</a>
+            <a class="nav-link disabled" routerLink="/biografia" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Biografía</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" routerLink="/bibliografia">Bibliografía</a>
-          </li>
-          <!---
+          </li>        
           <li class="nav-item">
-            <app-cuentos-dropdown></app-cuentos-dropdown>
-          </li>--->          
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/textos" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Cuentos</a>
+            <a class="nav-link" routerLink="/cuentos" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Cuentos</a>
           </li>         
           <li class="nav-item">
             <a class="nav-link" routerLink="/narraciones" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Narraciones</a>
