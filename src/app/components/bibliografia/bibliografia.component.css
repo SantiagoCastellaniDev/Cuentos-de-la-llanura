@@ -11,7 +11,7 @@ section {
     padding:0 auto;
     margin:0 auto;
 } 
-.banner h2 {
+.titulo {
     font-family: 'Qwitcher Grypen', cursive;
     font-size:5rem;
     color:rgb(63, 9, 9);
@@ -19,28 +19,27 @@ section {
     padding-top:5px;
 }
 
-.libro-img {
-    max-height: 40vh;
-    border:2px solid black;
-    max-width: 40vw;
+.libro-img {/*
+    max-height: 40vh;*/
+    border:2px solid black;/*
+    max-width: 40vw;*/
 }
 .libro {
-    margin:0 auto;
+    margin:25px auto;
 }
 
 #bibliografia {
     margin:70px 0 0 0;
     padding: 25px;
-    background:rgb(243, 255, 175);
 }
-
+.libro {
+    border:2px solid black;
+    padding:0;
+}
 .libro h4 {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-top:10px;
-}
-.libro p {
-    margin:10px 100px;
 }
 
 

@@ -26,6 +26,7 @@ import { NarracionesComponent } from './components/narraciones/narraciones.compo
 import { NarracionPageComponent } from './pages/narracion-page/narracion-page.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { CuentosPageComponent } from './pages/cuentos-page/cuentos-page.component';
+import { BibliografiaPageComponent } from './pages/bibliografia-page/bibliografia-page.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { CuentosPageComponent } from './pages/cuentos-page/cuentos-page.componen
     NarracionesComponent,
     NarracionPageComponent,
     HomePageComponent,
-    CuentosPageComponent
+    CuentosPageComponent,
+    BibliografiaPageComponent
   ],
   imports: [
     BrowserModule,

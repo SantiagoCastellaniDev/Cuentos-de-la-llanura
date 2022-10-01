@@ -17,12 +17,13 @@ import { Cuento6Component } from './cuentos/cuento6/cuento6.component';
 import { Cuento7Component } from './cuentos/cuento7/cuento7.component';
 import { Cuento8Component } from './cuentos/cuento8/cuento8.component';
 import { Cuento9Component } from './cuentos/cuento9/cuento9.component';
+import { BibliografiaPageComponent } from './pages/bibliografia-page/bibliografia-page.component';
 import { CuentosPageComponent } from './pages/cuentos-page/cuentos-page.component';
 import { NarracionPageComponent } from './pages/narracion-page/narracion-page.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'biografia', component: BiografiaComponent },
-  { path: 'bibliografia', component: BibliografiaComponent },/*
+  { path: 'bibliografia', component: BibliografiaPageComponent },/*
   { path: 'narraciones', component: NarracionesComponent},*/
   { path:'narraciones', component:NarracionPageComponent},
   { path: 'cuentos', component: CuentosPageComponent },

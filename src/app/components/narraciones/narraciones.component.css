@@ -12,13 +12,15 @@ section {
 } 
 .presentacion h2 {
     font-family: 'Qwitcher Grypen', cursive;
-    font-size:7rem;
-    color:rgb(61, 61, 3);
+    font-size:7rem;/*
+    color:rgb(61, 61, 3);*/
+    color:black;
     margin:0 auto;
     padding-top:100px;
 }
 .comentario {
-    margin:25px
+    margin:25px;
+    font-size: 1.3rem;
 }
 .narradores ul {
     margin:0 auto;
@@ -51,4 +53,5 @@ section {
 @media only screen and (max-width: 410px) {
     .presentacion h2 {font-size:5rem}
     .narradores ul li audio  {width:220px}
+    .narradores {padding:10px}
 }
