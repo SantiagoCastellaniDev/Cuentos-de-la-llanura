@@ -3,11 +3,8 @@ section {
     padding:0 auto;
     text-align: center;
 }
-/* Banner y titulo*/
 
-.presentacion {    
-    text-align: center;
-    justify-content: center;
+.presentacion {
     padding:0 auto;
     margin:0 auto;
 } 
@@ -19,27 +16,54 @@ section {
     padding-top:5px;
 }
 
-.libro-img {/*
-    max-height: 40vh;*/
-    border:2px solid black;/*
-    max-width: 40vw;*/
-}
-.libro {
-    margin:25px auto;
-}
-
 #bibliografia {
     margin:70px 0 0 0;
     padding: 25px;
 }
-.libro {
-    border:2px solid black;
-    padding:0;
+
+.muestrario {
+    text-align: center;
+    padding:25px 20%
 }
-.libro h4 {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    margin-top:10px;
+
+.cajas {
+    margin:40px auto;
+}
+
+.album {
+    padding:0 auto;
+    margin:0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.portada {
+    width:200px;
+    border:3px solid black
+}
+
+.reseña {
+    padding:10px;    
+    border-radius: 25px;
+}
+
+.reseña h4{
+    margin:15px 0px;
+    background-color:white;
+    color:black;
+    border:1px solid black;
+    padding:10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.reseña a {
+    background-color: white;
+    padding:5px;
+    border:1px solid black;
+}
+*/
+.texto button {
+    margin:10px
 }
 
 
@@ -50,5 +74,11 @@ section {
     #bibliografia {        
         padding: 5px;
     }
-
 }
+/*
+@media only screen and (max-width: 1000px) {
+    .reseña p {        
+        display:none
+    }
+}
+*/
