@@ -49,7 +49,7 @@ section {
 
 .reseña h4{
     margin:15px 0px;
-    background-color:white;
+    background:white;
     color:black;
     border:1px solid black;
     padding:10px;
@@ -57,11 +57,11 @@ section {
 }
 
 .reseña a {
-    background-color: white;
+    background: white;
     padding:5px;
     border:1px solid black;
 }
-*/
+
 .texto button {
     margin:10px
 }
