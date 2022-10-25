@@ -45,25 +45,40 @@ section {
 .reseña {
     padding:10px;    
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto button {
+    margin:10px
+}
+.titu {
+    background:white;
+    padding:5px;
+    border:1px solid black;
+    text-align: center;
+    margin:5px auto;
+}
+.enlace {
+    background:white;
+    width:max-content;
+    border:1px solid black;
+    text-align: center;
+    margin:0 auto;
+    margin:2px
 }
 
 .reseña h4{
     margin:15px 0px;
-    background:white;
     color:black;
-    border:1px solid black;
     padding:10px;
     font-family:'Times New Roman', Times, serif;
 }
 
 .reseña a {
-    background: white;
     padding:5px;
-    border:1px solid black;
-}
-
-.texto button {
-    margin:10px
+    margin-top:5px;
 }
 
 
