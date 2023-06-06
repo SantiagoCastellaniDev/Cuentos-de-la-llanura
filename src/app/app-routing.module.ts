@@ -7,6 +7,7 @@ import { CuentoComponent } from './components/cuento/cuento.component';*/
 import { HomeComponent } from './components/home/home.component';/*
 import { NarracionesComponent } from './components/narraciones/narraciones.component';*//*
 import { TextosComponent } from './components/textos/textos.component';*/
+import { MiscelaneaComponent } from './components/miscelanea/miscelanea.component';
 import { Cuento1Component } from './cuentos/cuento1/cuento1.component';
 import { Cuento10Component } from './cuentos/cuento10/cuento10.component';
 import { Cuento2Component } from './cuentos/cuento2/cuento2.component';
@@ -19,12 +20,13 @@ import { Cuento8Component } from './cuentos/cuento8/cuento8.component';
 import { Cuento9Component } from './cuentos/cuento9/cuento9.component';
 import { BibliografiaPageComponent } from './pages/bibliografia-page/bibliografia-page.component';
 import { CuentosPageComponent } from './pages/cuentos-page/cuentos-page.component';
+import { MiscelaneaPageComponent } from './pages/miscelanea-page/miscelanea-page.component';
 import { NarracionPageComponent } from './pages/narracion-page/narracion-page.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'biografia', component: BiografiaComponent },
-  { path: 'bibliografia', component: BibliografiaPageComponent },/*
-  { path: 'narraciones', component: NarracionesComponent},*/
+  { path: 'bibliografia', component: BibliografiaPageComponent },
+  { path: 'miscelaneas', component: MiscelaneaPageComponent},
   { path:'narraciones', component:NarracionPageComponent},
   { path: 'cuentos', component: CuentosPageComponent },
   { path: 'cuento1', component: Cuento1Component },

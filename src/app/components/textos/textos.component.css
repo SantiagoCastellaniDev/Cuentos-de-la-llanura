@@ -1,6 +1,8 @@
 section {
     margin:0 auto;
     padding:0 auto;
+    min-height:100vh;
+    padding-bottom:150px
 }
 .textos {
     text-align: center;
@@ -15,7 +17,7 @@ section {
 .presentacion h2 {
     font-family: 'Qwitcher Grypen', cursive;
     font-size:7rem;
-    color:rgb(63, 9, 9);
+    color:yellow;
     margin:0 auto;
     padding-top:100px;
 }
@@ -37,6 +39,7 @@ section {
     list-style: none; 
     margin-bottom:75px;   
 }
+/*
 .cuentico {
     text-align: center;
     background:rgb(230, 229, 199);
@@ -45,17 +48,18 @@ section {
     border:1px solid yellow;
     padding:15px;
     width:max-content;
-}
-
-.cuentico  a {    
-    color:black;
-    font-size: 1.1rem;
+}*/
+.cuentico a {
+    color:rgb(251, 251, 166);
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
 }
 
+
 .cuentico a:hover {
-    color:green;
+    color:rgb(93, 197, 93);
 }
 
 
