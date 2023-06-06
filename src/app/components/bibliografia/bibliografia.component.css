@@ -19,6 +19,7 @@ section {
 #bibliografia {
     margin:70px 0 0 0;
     padding: 25px;
+    min-height: 100vh;
 }
 
 .muestrario {
@@ -80,6 +81,71 @@ section {
     padding:5px;
     margin-top:5px;
 }
+/*
+.mitad{
+    display:inline
+}*/
+
+.btn-sol{
+    color:yellow;
+    background:transparent;
+    border:none;
+    font-size:100px;
+    position:fixed;
+    margin-right:300px;
+    transform: translate(50%, 50%);
+  animation: rotate 4s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(50%, 50%) rotate(360deg);
+  }
+  to {
+    transform: translate(50%, 50%) rotate(0deg);
+  }
+}
+
+#flechilla{
+    width:50px;
+    margin-top:140px;
+    position:fixed
+}
+#bbbb{
+    font-size: 2.5rem;
+    color:orangered;
+    margin-top: 140px;
+    right:200px;
+    font-family: 'Caveat', cursive;
+    position:fixed;
+
+}
+.libristico{
+    text-align:center;
+    background:rgba(253, 233, 162, 0.679);
+    border-radius:10px;
+    border:1px solid black;
+    margin:60px auto;
+    padding:10px 20px;
+    width:max-content;    
+}
+
+#portada-libro{
+    width:100px
+}
+.libristico p {
+    font-family: 'Caveat', cursive;
+    color:black;
+    font-size:2rem
+    
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
 
 
 @media only screen and (max-width: 460px) {

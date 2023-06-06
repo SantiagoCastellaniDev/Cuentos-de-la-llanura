@@ -1,7 +1,9 @@
 <section id="bibliografia">
+    <!---
     <div class="presentacion">
         <h2 class="titulo">Bibliografía</h2>
-    </div>
+    </div>--->
+    <!----
     <div class="muestrario">
         <div class="cajas row">
             <div class="foto col-md-6">
@@ -13,12 +15,7 @@
                 </div>
                 <div class="enlace container">
                     <a class="" href="../../../assets/libros/De los cuatro vientos.pdf" target="blanck">Descargar</a>
-                </div>   
-               
-                <!---
-                <p>"...Permítaseme, por último, unas notas de mis sentimientos: vaya mi querido e imborrable recuerdo a tantos paisanos que han sido mis compañeros de trabajo y mi testimonio de amor entrañable a esos lugares rurales en los que viví y también a estas extendidas llanuras de mi querida provincia, particularmente a los hombres y mujeres del Oeste pampeano."</p>
-                --->
-                              
+                </div>  
             </div>
         </div>
         <div class="cajas row">
@@ -34,7 +31,42 @@
                 </div>               
             </div>
         </div>
-    </div> 
+    </div>--->
+    <div class="row">
+        <div class="col-md-6 hidden">
+            <div class="aparece"  *ngIf="aparece">
+                <div class="libristico">
+                    <a href="../../../assets/libros/De los cuatro vientos.pdf" target="blanck">
+                        <div class="text-center">
+                            <p>De los cuatro vientos</p>
+                        </div>                    
+                        <img id="portada-libro" src="../../../assets/img/deloscuatrovientos.png" alt="">
+                    </a>                    
+                </div>
+                <div class="libristico">
+                    <a href="../../../assets/libros/TODOS LOS CUENTOS JUNTOS - EL LIBRO-.doc" target="blanck">
+                        <div class="text-center">
+                            <p>Oficios y personajes del campo</p>
+                        </div>                    
+                        <img id="portada-libro" src="../../../assets/img/oficios.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+           
+            
+
+        </div>
+        <div class="col-md-6 mitad">     
+            <button class="btn-sol"><i class="bi bi-brightness-high-fill" (click)="change()"></i></button>
+            <div>                
+                <img id="flechilla" src="../../../assets/img/flechilla.png" alt="">
+            </div>              
+            <p id="bbbb">Libros</p>               
+        </div>
+
+    </div>
+    
+
 </section>  
 
 

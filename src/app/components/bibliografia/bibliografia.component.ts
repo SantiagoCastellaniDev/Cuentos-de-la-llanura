@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BibliografiaComponent implements OnInit {
 
+
+  aparece:boolean=false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  change(){
+    this.aparece=!this.aparece;
   }
 
 }
