@@ -11,3 +11,6 @@ ul li {
 ul li a:hover {
     color: black;
 }
+.nav-link {
+    font-size: 1.1rem;
+}

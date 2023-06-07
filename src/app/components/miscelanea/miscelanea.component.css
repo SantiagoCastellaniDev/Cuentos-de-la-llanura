@@ -1,6 +1,24 @@
-section {
-    min-height:100vh
+#miscelaneas {
+    min-height:100vh;
+    height:max-content;
+    padding:130px 0;
 }
-iframe {
-    margin:200px auto;
+
+.contenedor-iframe {
+    width: 80%;
+    margin:0 auto;
+}
+h5{
+    color:white;
+    font-family:'Caveat', cursive;
+    font-size:2rem;
+    margin:20px
+}
+hr {
+    margin:50px
+}
+
+.contenedor-iframe iframe {
+    width: 100%;
+    aspect-ratio: 16/9; /* Relación de aspecto 16:9 */
 }

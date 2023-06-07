@@ -118,7 +118,6 @@ section {
     right:200px;
     font-family: 'Caveat', cursive;
     position:fixed;
-
 }
 .libristico{
     text-align:center;
@@ -142,24 +141,8 @@ section {
 a {
     text-decoration: none;
 }
-
-
-
-
-
-
-@media only screen and (max-width: 460px) {
-    .banner h2 {        
-        font-size:4rem;
-    }
-    #bibliografia {        
-        padding: 5px;
+@media only screen and (max-width: 480px) {
+    .libristico {
+        width:250px
     }
 }
-/*
-@media only screen and (max-width: 1000px) {
-    .reseña p {        
-        display:none
-    }
-}
-*/
